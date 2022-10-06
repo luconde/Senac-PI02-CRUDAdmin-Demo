@@ -1,7 +1,7 @@
 <html>
     <body>
         <p>
-            Banco de dados : <?php echo getenv("DB_DATABASE") ?>;
+            Banco de dados : <?php echo getenv("DB_DATABASE") ?>
         </p>
         <p>
             Host: <?php echo getenv("DB_HOST"); ?>
