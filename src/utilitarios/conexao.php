@@ -13,12 +13,11 @@
     error_reporting(E_ALL);
 
     // Variaveis para conexao
-    $mysqlhostname = "<IP ou nome do servidor>";
-    $mysqlport = "<Porta>";
-    $mysqlusername = "<usuario>";
-    $mysqlpassword = "<senha>";
-    $mysqldatabase = "<nome do banco>";
-
+    $mysqlhostname = "<Adicione o endereço do servidor>";
+    $mysqlport = "<Adicione a porta de acesso ao banco de dados>";
+    $mysqlusername = "<Adicione o usuario de acesso ao banco de dados>";
+    $mysqlpassword = "<Adicione a senha de acesso ao banco de dados>";
+    $mysqldatabase = "<Adicione o nome do Banco de Dados>";
 
     $dsn = 'mysql:host=' . $mysqlhostname . ';dbname=' . $mysqldatabase . ';port=' . $mysqlport;           
     $pdo = new PDO($dsn, $mysqlusername, $mysqlpassword);

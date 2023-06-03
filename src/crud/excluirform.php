@@ -8,12 +8,11 @@
     <br>
     <?php 
     // Dados para conexao ao MySQL
-    $mysqlhostname = "<IP ou nome do servidor>";
-    $mysqlport = "<porta>";
-    $mysqlusername = "<usuario>";
-    $mysqlpassword = "<senha>";
-    $mysqldatabase = "<nome do banco>";
-
+    $mysqlhostname = "<Adicione o endereço do servidor>";
+    $mysqlport = "<Adicione a porta de acesso ao banco de dados>";
+    $mysqlusername = "<Adicione o usuario de acesso ao banco de dados>";
+    $mysqlpassword = "<Adicione a senha de acesso ao banco de dados>";
+    $mysqldatabase = "<Adicione o nome do Banco de Dados>";
     // Monta a String de Conexao ao MySQL e Conecta no banco de dados
     $dsn = 'mysql:host=' . $mysqlhostname . ';dbname=' . $mysqldatabase . ';port=' . $mysqlport;           
     $pdo = new PDO($dsn, $mysqlusername, $mysqlpassword);
